@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T10:33:50.312Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="kBaeo-n96sahGzh-DIdz" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-13T12:35:23.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="6I6ZBOu853JIjSTeeWUw" version="18.0.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1038" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -50,10 +50,10 @@
         <mxCell id="eD-Zbj26l5MNg7nNfEIu-44" value="接收传感器数据" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;fontSize=14;" vertex="1" parent="eD-Zbj26l5MNg7nNfEIu-34">
           <mxGeometry x="160" y="130" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="eD-Zbj26l5MNg7nNfEIu-45" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eD-Zbj26l5MNg7nNfEIu-47" target="eD-Zbj26l5MNg7nNfEIu-50">
+        <mxCell id="eD-Zbj26l5MNg7nNfEIu-46" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eD-Zbj26l5MNg7nNfEIu-47" target="eD-Zbj26l5MNg7nNfEIu-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eD-Zbj26l5MNg7nNfEIu-46" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eD-Zbj26l5MNg7nNfEIu-47" target="eD-Zbj26l5MNg7nNfEIu-51">
+        <mxCell id="eD-Zbj26l5MNg7nNfEIu-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eD-Zbj26l5MNg7nNfEIu-47" target="eD-Zbj26l5MNg7nNfEIu-50">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eD-Zbj26l5MNg7nNfEIu-47" value="core-data" style="shape=datastore;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -72,7 +72,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eD-Zbj26l5MNg7nNfEIu-51" value="获取传感器数据" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;fontSize=14;" vertex="1" parent="eD-Zbj26l5MNg7nNfEIu-48">
-          <mxGeometry x="40" y="120" width="120" height="40" as="geometry" />
+          <mxGeometry x="40" y="129" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eD-Zbj26l5MNg7nNfEIu-52" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontFamily=宋体;fontSize=14;" edge="1" parent="eD-Zbj26l5MNg7nNfEIu-48" source="eD-Zbj26l5MNg7nNfEIu-51" target="eD-Zbj26l5MNg7nNfEIu-53">
           <mxGeometry relative="1" as="geometry">
@@ -92,7 +92,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="eD-Zbj26l5MNg7nNfEIu-53" value="根调取天气状况，车祸地点" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;fontSize=14;" vertex="1" parent="eD-Zbj26l5MNg7nNfEIu-48">
-          <mxGeometry x="40" y="190" width="120" height="40" as="geometry" />
+          <mxGeometry x="40" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eD-Zbj26l5MNg7nNfEIu-54" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontFamily=宋体;fontSize=14;" edge="1" parent="eD-Zbj26l5MNg7nNfEIu-48" source="eD-Zbj26l5MNg7nNfEIu-53" target="eD-Zbj26l5MNg7nNfEIu-56">
           <mxGeometry relative="1" as="geometry">
@@ -106,7 +106,7 @@
           <mxGeometry x="40" y="270" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eD-Zbj26l5MNg7nNfEIu-58" value="整合车祸数据，编写API" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;fontSize=14;" vertex="1" parent="eD-Zbj26l5MNg7nNfEIu-48">
-          <mxGeometry x="205" y="190" width="120" height="40" as="geometry" />
+          <mxGeometry x="205" y="200" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eD-Zbj26l5MNg7nNfEIu-59" value="天气API" style="rounded=1;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=14;" vertex="1" parent="eD-Zbj26l5MNg7nNfEIu-48">
           <mxGeometry x="220" y="60" width="90" height="40" as="geometry" />
@@ -134,13 +134,13 @@
         <mxCell id="eD-Zbj26l5MNg7nNfEIu-66" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eD-Zbj26l5MNg7nNfEIu-44" target="eD-Zbj26l5MNg7nNfEIu-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eD-Zbj26l5MNg7nNfEIu-67" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eD-Zbj26l5MNg7nNfEIu-41" target="eD-Zbj26l5MNg7nNfEIu-47">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="eD-Zbj26l5MNg7nNfEIu-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eD-Zbj26l5MNg7nNfEIu-50">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="650" y="160" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="eD-Zbj26l5MNg7nNfEIu-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="eD-Zbj26l5MNg7nNfEIu-41" target="eD-Zbj26l5MNg7nNfEIu-47">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
