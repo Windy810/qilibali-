@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T09:04:16.237Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" version="18.0.3" etag="yApfH_BQoHfwcFTGguA6" type="github"><diagram id="x8wUL-hqikglWtBgJhWG">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-13T10:14:09.269Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="Bf2aJCrlIJQDje-wUkGl" version="18.0.3" type="github">
+  <diagram id="x8wUL-hqikglWtBgJhWG" name="Page-1">
+    <mxGraphModel dx="1038" dy="1708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-7" value="南侧：设备侧" style="swimlane;startSize=20;horizontal=1;childLayout=treeLayout;horizontalTree=0;resizable=0;containerType=tree;fontFamily=宋体;fontSize=14;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="170" y="200" width="420" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-8" value="智能交通设备" style="whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=14;" vertex="1" parent="rjUNm6GgaviCtcE3AxA1-7">
+          <mxGeometry x="160" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-9" value="传感器" style="whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=14;" vertex="1" parent="rjUNm6GgaviCtcE3AxA1-7">
+          <mxGeometry x="20" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-10" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;fontFamily=宋体;fontSize=14;" edge="1" parent="rjUNm6GgaviCtcE3AxA1-7" source="rjUNm6GgaviCtcE3AxA1-8" target="rjUNm6GgaviCtcE3AxA1-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-11" value="监控器" style="whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=14;" vertex="1" parent="rjUNm6GgaviCtcE3AxA1-7">
+          <mxGeometry x="160" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;html=1;rounded=0;fontFamily=宋体;fontSize=14;" edge="1" parent="rjUNm6GgaviCtcE3AxA1-7" source="rjUNm6GgaviCtcE3AxA1-8" target="rjUNm6GgaviCtcE3AxA1-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=宋体;fontSize=14;" edge="1" source="rjUNm6GgaviCtcE3AxA1-8" target="rjUNm6GgaviCtcE3AxA1-14" parent="rjUNm6GgaviCtcE3AxA1-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="100" />
+              <mxPoint x="350" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-14" value="测速仪" style="whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=14;" vertex="1" parent="rjUNm6GgaviCtcE3AxA1-7">
+          <mxGeometry x="300" y="130" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-40" value="EdgeX内部框架" style="swimlane;fontFamily=宋体;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-40" width="420" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-46" value="应用服务" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=14;" vertex="1" parent="rjUNm6GgaviCtcE3AxA1-40">
+          <mxGeometry x="20" y="50" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-47" value="核心服务（核心命令/核心数据）" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=14;" vertex="1" parent="rjUNm6GgaviCtcE3AxA1-40">
+          <mxGeometry x="20" y="110" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-48" value="设备服务" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=14;" vertex="1" parent="rjUNm6GgaviCtcE3AxA1-40">
+          <mxGeometry x="20" y="170" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-49" value="北侧：云服务侧" style="swimlane;fontFamily=宋体;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-180" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-53" value="数据库" style="shape=datastore;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=14;" vertex="1" parent="rjUNm6GgaviCtcE3AxA1-49">
+          <mxGeometry x="110" y="50" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rjUNm6GgaviCtcE3AxA1-55" value="其他云服务" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontFamily=宋体;fontSize=14;" vertex="1" parent="rjUNm6GgaviCtcE3AxA1-49">
+          <mxGeometry x="220" y="45" width="120" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
