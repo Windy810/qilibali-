@@ -1,79 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2022-05-13T12:38:40.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="vEqBo3zRMYnDdhfciiLg" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-13T12:39:21.950Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36" etag="5KAkj9v77wxv-Q2V96XH" version="18.0.3" type="github">
   <diagram id="1EoKsrO8-B_x2-UR_YAR" name="Page-1">
-    <mxGraphModel dx="1038" dy="539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rFoKaIgumJMLR7coR9mg-1" value="应用服务B（下发指令）" style="swimlane;startSize=20;horizontal=1;containerType=tree;fillColor=none;fontFamily=宋体;" vertex="1" parent="1">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-1" value="应用服务B（下发指令）" style="swimlane;startSize=20;horizontal=1;containerType=tree;fillColor=none;fontFamily=宋体;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="530" y="530" width="200" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-2" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontFamily=宋体;" edge="1" parent="rFoKaIgumJMLR7coR9mg-1" source="rFoKaIgumJMLR7coR9mg-3" target="rFoKaIgumJMLR7coR9mg-4">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-2" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontFamily=宋体;fontSize=14;" edge="1" parent="rFoKaIgumJMLR7coR9mg-1" source="rFoKaIgumJMLR7coR9mg-3" target="rFoKaIgumJMLR7coR9mg-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-3" value="获取云端命令" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-1">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-3" value="获取云端命令" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;fontSize=14;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-1">
           <mxGeometry x="40" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-4" value="查找对应设备" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-1">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-4" value="查找对应设备" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;fontSize=14;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-1">
           <mxGeometry x="40" y="120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontFamily=宋体;" edge="1" parent="rFoKaIgumJMLR7coR9mg-1" source="rFoKaIgumJMLR7coR9mg-4" target="rFoKaIgumJMLR7coR9mg-6">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-5" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;startArrow=none;endArrow=none;rounded=0;fontFamily=宋体;fontSize=14;" edge="1" parent="rFoKaIgumJMLR7coR9mg-1" source="rFoKaIgumJMLR7coR9mg-4" target="rFoKaIgumJMLR7coR9mg-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="800" y="110" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-6" value="传达指令" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-1">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-6" value="传达指令" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;fontSize=14;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-1">
           <mxGeometry x="40" y="200" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-7" value="设备服务B（接受交通调控）" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontFamily=宋体;" vertex="1" parent="1">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-7" value="设备服务B（接受交通调控）" style="swimlane;startSize=20;horizontal=1;containerType=tree;fontFamily=宋体;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="110" y="459" width="320" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-8" value="红绿灯" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-7">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-8" value="红绿灯" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;fontSize=14;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-7">
           <mxGeometry x="24" y="40" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-9" value="电子警示牌" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-7">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-9" value="电子警示牌" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;fontSize=14;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-7">
           <mxGeometry x="24" y="120" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-10" value="测速仪" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-7">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-10" value="测速仪" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;fontSize=14;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-7">
           <mxGeometry x="24" y="200" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-11" value="路灯" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-7">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-11" value="路灯" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;fontSize=14;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-7">
           <mxGeometry x="24" y="280" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="rFoKaIgumJMLR7coR9mg-7" source="rFoKaIgumJMLR7coR9mg-16" target="rFoKaIgumJMLR7coR9mg-9">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="rFoKaIgumJMLR7coR9mg-7" source="rFoKaIgumJMLR7coR9mg-16" target="rFoKaIgumJMLR7coR9mg-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="rFoKaIgumJMLR7coR9mg-7" source="rFoKaIgumJMLR7coR9mg-16" target="rFoKaIgumJMLR7coR9mg-10">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="rFoKaIgumJMLR7coR9mg-7" source="rFoKaIgumJMLR7coR9mg-16" target="rFoKaIgumJMLR7coR9mg-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="rFoKaIgumJMLR7coR9mg-7" source="rFoKaIgumJMLR7coR9mg-16" target="rFoKaIgumJMLR7coR9mg-8">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="rFoKaIgumJMLR7coR9mg-7" source="rFoKaIgumJMLR7coR9mg-16" target="rFoKaIgumJMLR7coR9mg-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="rFoKaIgumJMLR7coR9mg-7" source="rFoKaIgumJMLR7coR9mg-16" target="rFoKaIgumJMLR7coR9mg-11">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="rFoKaIgumJMLR7coR9mg-7" source="rFoKaIgumJMLR7coR9mg-16" target="rFoKaIgumJMLR7coR9mg-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-16" value="获取命令并下发" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-7">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-16" value="获取命令并下发" style="whiteSpace=wrap;html=1;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;};fontFamily=宋体;fontSize=14;" vertex="1" parent="rFoKaIgumJMLR7coR9mg-7">
           <mxGeometry x="184" y="160" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-19" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="rFoKaIgumJMLR7coR9mg-21" target="rFoKaIgumJMLR7coR9mg-3">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-19" style="edgeStyle=none;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="1" source="rFoKaIgumJMLR7coR9mg-21" target="rFoKaIgumJMLR7coR9mg-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="820" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-20" value="下达指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=宋体;" vertex="1" connectable="0" parent="rFoKaIgumJMLR7coR9mg-19">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-20" value="下达指令" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=宋体;fontSize=14;" vertex="1" connectable="0" parent="rFoKaIgumJMLR7coR9mg-19">
           <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-21" value="交通调度人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;fontFamily=宋体;" vertex="1" parent="1">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-21" value="交通调度人员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=none;fontFamily=宋体;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="770" y="560" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-22" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="rFoKaIgumJMLR7coR9mg-23" target="rFoKaIgumJMLR7coR9mg-16">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-22" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="1" source="rFoKaIgumJMLR7coR9mg-23" target="rFoKaIgumJMLR7coR9mg-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-23" value="core-command" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=none;fontFamily=宋体;" vertex="1" parent="1">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-23" value="core-command" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=none;fontFamily=宋体;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="450" y="609" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rFoKaIgumJMLR7coR9mg-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=宋体;" edge="1" parent="1" source="rFoKaIgumJMLR7coR9mg-6" target="rFoKaIgumJMLR7coR9mg-23">
+        <mxCell id="rFoKaIgumJMLR7coR9mg-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=宋体;fontSize=14;" edge="1" parent="1" source="rFoKaIgumJMLR7coR9mg-6" target="rFoKaIgumJMLR7coR9mg-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
